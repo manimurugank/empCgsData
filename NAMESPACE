@@ -1,1 +1,2 @@
 export("getEmpData")
+export("getAllEmpData")

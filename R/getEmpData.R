@@ -9,7 +9,6 @@
 #' @examples
 #'
 #' @export
-#'
 employee <- data.frame(
   name = c('anandraj', 'Dhamodaran', 'Bharani', 'Arun', 'ragu'),
   age = c(23, 20, 16, 27, 28),
@@ -22,6 +21,4 @@ getEmpData <- function(e_name) {
   print(subset(employee, name==e_name))
 }
 
-getAllEmpData <- function() {
-  print(employee)
-}
+getAllEmpData <- employee

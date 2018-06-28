@@ -1,0 +1,9 @@
+{
+    "path" : "~/getEmpData",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}
